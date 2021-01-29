@@ -1,8 +1,3 @@
-@media screen and (min-width: 640px) {
-  #intro-profile .profile-image {
-    display: none;
-  }
-
   #aside-menu {
     display: block;
     position: fixed;
@@ -41,13 +36,12 @@
   #aside-section {
     display: none;
   }
-}
 
-@media only screen and (min-width: 1000px) {
+
+/* @media only screen and (min-width: 1000px) {
   #aside-menu {
     max-width: 270px;
   }
   #main-content {
     margin-right: 280px;
-  }
-}
+  } */
