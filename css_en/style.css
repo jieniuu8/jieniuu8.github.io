@@ -1,4 +1,4 @@
-html{
+html {
   font-family: "Computer Modern Serif", serif;
 }
 
@@ -6,40 +6,35 @@ section {
   border-bottom: 1px solid;
 }
 
-#aside-section .web-icon {
-  display: inline-block;
+#email {
+  height: 40px;
   margin: 5px;
-  height: 50px;
 }
 
-.org-icon {
-  display: inline-block;
-  height: 50px;
-  margin: 10px;
+.web-icon:not(#email) {
+  height: 40px;
+  width: 40px;
+  margin: 5px;
+  overflow: hidden;
+  object-fit: cover;
 }
 
-.language_select{
-  text-align: center;
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  font-family: serif;
-}
+/* #social-media {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+} */
 
 #name {
   font-size: 30px;
   font-weight: bold;
   margin-bottom: 0;
 }
-#chinese_name{
+#chinese_name {
   height: 60px;
 }
 
-#aside-menu {
-  display: none;
-}
-
-#intro-profile .profile-image a {
+.profile-image a {
   float: left;
   max-width: 135px;
   max-height: 135px;
@@ -47,11 +42,10 @@ section {
   content: url(../img/Tony-in-suit.jpg);
 }
 
- .highlight {
+.highlight {
   padding: 10px;
   margin-top: 0;
-  text-align: center;
-  font-style: italic;
+  text-align: left;
   background-color: #f1f1f1;
   box-shadow: 1px 1px rgba(0, 0, 0, 0.15);
 }
@@ -69,4 +63,12 @@ section {
   display: inline;
   margin: 5px;
   height: 50px;
+}
+
+blockquote{
+  font-style: italic;
+}
+
+h3,h4,h5 {
+  margin-bottom: -4px;
 }

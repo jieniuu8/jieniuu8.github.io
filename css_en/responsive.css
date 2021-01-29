@@ -1,47 +1,7 @@
-  #aside-menu {
+@media screen and (max-width: 450px) {
+
+  .web-icon#email {
     display: block;
-    position: fixed;
-    height: 100vh;
-    width: 25%;
-    top: 0;
-    right: 0;
-    bottom: 0;
   }
 
-  #aside-menu .web-icon {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    height: 50px;
-  }
-
-  #aside-menu .profile-image a {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    padding-top: 20px;
-    height: 12rem;
-    content: url(../img/Tony-in-suit.jpg);
-  }
-
-  #aside-menu .profile-image:hover a {
-    content: url(../img/eli-ayase.png);
-  }
-
-
-  #main-content {
-    margin-right: 25%;
-  }
-
-  #aside-section {
-    display: none;
-  }
-
-
-/* @media only screen and (min-width: 1000px) {
-  #aside-menu {
-    max-width: 270px;
-  }
-  #main-content {
-    margin-right: 280px;
-  } */
+}
