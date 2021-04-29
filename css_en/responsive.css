@@ -1,7 +1,7 @@
 @media screen and (max-width: 450px) {
 
-  .web-icon#email {
-    display: block;
-  }
+.web-icon:not(#email) {
+  display: none;
+}
 
 }
