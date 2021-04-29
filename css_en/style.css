@@ -12,23 +12,18 @@ section {
 }
 
 .web-icon:not(#email) {
-  float: right;
   height: 40px;
   width: 40px;
-  margin: 0px 10px;
+  margin: 5px;
   overflow: hidden;
   object-fit: cover;
 }
 
-
-/*
-#social-media {
+/* #social-media {
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-;
+  justify-content: space-evenly;
 } */
-
-
 
 #name {
   font-size: 30px;
@@ -50,7 +45,7 @@ section {
 .highlight {
   padding: 10px;
   margin-top: 0;
-  text-align: center;
+  text-align: left;
   background-color: #f1f1f1;
   box-shadow: 1px 1px rgba(0, 0, 0, 0.15);
 }
